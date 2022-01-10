@@ -6,4 +6,7 @@ Rails.application.routes.draw do
 
   # return 6 random numbers
   get "/predict_lotto", controller: "my_examples", action: "lotto_win"
+
+  #records number of visits/refreshes, apparently impossible
+  get "/"
 end
